@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="ASCII"?>
+<petrinet:PetriNet xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:petrinet="http://www.example.org/petrinet">
+  <elements xsi:type="petrinet:Transition" name="Tt1" maxDelay="5.0" minDelay="2.0"/>
+  <elements xsi:type="petrinet:Place" name="pp1"/>
+  <elements xsi:type="petrinet:OutputArc" name="OutputArcT1P1" from="//@elements.0" to="//@elements.1"/>
+  <elements xsi:type="petrinet:InputArc" name="InputArcP1T1" to="//@elements.0" from="//@elements.1"/>
+</petrinet:PetriNet>
